@@ -1,0 +1,9 @@
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'snd_player_dead' - setting to default audio group
+Missing audiogroup for sound: 'snd_boom_boom' - setting to default audio group
+Missing audiogroup for sound: 'snd_boom_creat' - setting to default audio group
+Missing audiogroup for sound: 'snd_step_0' - setting to default audio group
+Missing audiogroup for sound: 'snd_step_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_music_bgm' - setting to default audio group
+Missing audiogroup for sound: 'snd_music_over' - setting to default audio group
+Missing audiogroup for sound: 'snd_music_stageclear' - setting to default audio group
