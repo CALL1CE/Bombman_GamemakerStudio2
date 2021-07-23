@@ -76,8 +76,9 @@ y+= dy*psp;
 //***动画控制
 if(dx!=0||dy!=0)
 {
-	image_index=image_index_player;	
-	//image_index_player+=0.1;
+	image_speed=0.1;
+	//image_index=image_index_player;	
+
 		if((image_index_player mod 2)==0)
 	{
 		audio_play_sound(snd_step_0,0,false);
