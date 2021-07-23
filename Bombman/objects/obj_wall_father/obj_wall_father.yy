@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_wall_iron",
-    "path": "sprites/spr_wall_iron/spr_wall_iron.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_wall_father",
-    "path": "objects/obj_wall_father/obj_wall_father.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +25,7 @@
     "path": "folders/Objects/wall.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall_iron",
+  "name": "obj_wall_father",
   "tags": [],
   "resourceType": "GMObject",
 }

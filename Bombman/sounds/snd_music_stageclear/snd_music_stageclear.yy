@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_music_stageclear",
-  "duration": 0.0,
+  "duration": 2.8,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

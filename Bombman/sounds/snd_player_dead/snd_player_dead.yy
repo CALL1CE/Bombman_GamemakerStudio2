@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_player_dead",
-  "duration": 0.0,
+  "duration": 0.864762,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

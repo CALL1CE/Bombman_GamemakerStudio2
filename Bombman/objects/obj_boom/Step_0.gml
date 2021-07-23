@@ -1,0 +1,74 @@
+/// @description Insert description here
+// You can write your code in this editor
+var tmp;
+//***爆炸倒计时
+if(timer<=0)
+{
+	
+	//***中间
+	instance_create_depth(x,y,0,obj_boom_fire);
+	sprite_index=spr_boom_center;
+	//***右边墙
+	tmp=collision_point(x+16,y,obj_wall_father,0,0);
+	if(tmp)
+	{
+		if(tmp.sprite_index==spr_wall_brik)
+		{
+			with(tmp)instance_destroy();
+			instance_create_depth(x+16,y,0,obj_wall_boom);
+			
+		}
+	}
+	else
+	{
+		tmp=instance_create_depth(x+16,y,0,obj_boom_fire);
+		tmp.sprite_index=spr_boom_right_end;
+	}
+	//***左边墙
+	tmp=collision_point(x-16,y,obj_wall_father,0,0);
+	if(tmp)
+	{
+		if(tmp.sprite_index==spr_wall_brik)
+		{
+			instance_create_depth(x-16,y,0,obj_wall_boom);
+			with(tmp)instance_destroy();
+		}
+	}
+	else
+	{
+		tmp=instance_create_depth(x-16,y,0,obj_boom_fire);
+		tmp.sprite_index=spr_boom_left_end;
+	}
+	//***上边墙
+	tmp=collision_point(x,y-16,obj_wall_father,0,0);
+	if(tmp)
+	{
+		if(tmp.sprite_index==spr_wall_brik)
+		{
+			instance_create_depth(x,y-16,0,obj_wall_boom);
+			with(tmp)instance_destroy();
+		}
+	}
+	else
+	{
+		tmp=instance_create_depth(x,y-16,0,obj_boom_fire);
+		tmp.sprite_index=spr_boom_up_end;
+	}
+	//***下边墙
+	tmp=collision_point(x,y+16,obj_wall_father,0,0);
+	if(tmp)
+	{
+		if(tmp.sprite_index==spr_wall_brik)
+		{
+			instance_create_depth(x,y+16,0,obj_wall_boom);
+			with(tmp)instance_destroy();
+		}
+	}
+	else
+	{
+		tmp=instance_create_depth(x,y+16,0,obj_boom_fire);
+		tmp.sprite_index=spr_boom_down_end;
+	}
+	instance_destroy();
+}
+timer--;

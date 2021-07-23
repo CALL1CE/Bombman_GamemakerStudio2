@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_wall_father",
+    "path": "objects/obj_wall_father/obj_wall_father.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "wall",
+    "path": "folders/Objects/wall.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_wall_grey",

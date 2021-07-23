@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_boom_creat",
-  "duration": 0.0,
+  "duration": 0.184082,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wall_iron",
-    "path": "sprites/spr_wall_iron/spr_wall_iron.yy",
+    "name": "spr_wall_brik",
+    "path": "sprites/spr_wall_brik/spr_wall_brik.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/wall.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall_iron",
+  "name": "obj_wall_brik",
   "tags": [],
   "resourceType": "GMObject",
 }

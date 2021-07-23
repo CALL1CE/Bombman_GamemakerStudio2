@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_wall_iron",
-    "path": "sprites/spr_wall_iron/spr_wall_iron.yy",
+    "name": "spr_boom",
+    "path": "sprites/spr_boom/spr_boom.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_wall_father",
-    "path": "objects/obj_wall_father/obj_wall_father.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,15 +20,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "wall",
-    "path": "folders/Objects/wall.yy",
+    "name": "bomb",
+    "path": "folders/Objects/bomb.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall_iron",
+  "name": "obj_boom",
   "tags": [],
   "resourceType": "GMObject",
 }
